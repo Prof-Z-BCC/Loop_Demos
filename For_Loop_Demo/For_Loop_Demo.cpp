@@ -1,5 +1,6 @@
 #include <iostream>
 #include <random>
+#include <string>
 
 using namespace std;
 
@@ -36,5 +37,28 @@ int main()
         cout << distr(gen) << endl;
     }
     cout << "----------------" << endl;
+    // print 10 random numbers unless it draws '7'
+    int roll = distr(gen);
+    for (int i = 0; i < 10; i++) {
+        cout << roll << endl;
+        if (roll == 7) {
+            break;
+        }
+        roll = distr(gen);
+    }
+    cout << "----------------" << endl;
+
+    string word;
+    cout << "Enter a word: ";
+    getline(cin, word);
+    for (size_t i = 0; i < word.size(); i++) {
+        cout << word[i] << endl;
+    }
+
+    for (const char& c : word) {
+        cout << c << endl;
+    }
+
+
     return 0;
 }

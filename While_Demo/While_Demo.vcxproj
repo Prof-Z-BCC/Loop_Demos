@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{26afdb2a-7e57-42cd-997a-f52d01e0094f}</ProjectGuid>
-    <RootNamespace>ForLoopDemo</RootNamespace>
+    <ProjectGuid>{9417973a-ba05-458c-8151-597bab4e0fc0}</ProjectGuid>
+    <RootNamespace>WhileDemo</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>For_Demo</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -141,7 +140,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="For_Loop_Demo.cpp" />
+    <ClCompile Include="While_Loop_Demo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="demo.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
