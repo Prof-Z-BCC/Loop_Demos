@@ -71,7 +71,7 @@ int main()
     int input = 0;
     int total = 0;
     counter = 0;
-    double average;
+    double average = 0;
     cout << "Enter some numbers, -1 to stop: ";
     while (input != -1) {
         cin >> input;
@@ -82,6 +82,6 @@ int main()
             cout << "\nRunning Average: " << average << endl;
         }
     }
-    cout << "Final Average: " << average << endl;
+    cout << "\nFinal Average: " << average << endl;
     return 0;
 }
