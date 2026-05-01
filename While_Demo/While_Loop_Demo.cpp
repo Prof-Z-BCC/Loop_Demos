@@ -22,12 +22,20 @@ int main()
         counter++;
 
         cout << counter << ": " << user_guess << endl;
-        
+        if (user_guess > answer)
+            cout << "Lower" << endl;
+        else if (user_guess < answer)
+            cout << "Higher" << endl;
+        else {
+            cout << "You got it." << endl;
+        }
     }
-    cout << "You got it." << endl;
 
+    cout << "\n----------------------\n\n";
+    
     ifstream fin("demo.txt");
 
+    // Reading from a file until there is nothing left to read
     while (!fin.eof()) {
         fin >> user_guess;
         if (fin.fail()) {
@@ -46,21 +54,34 @@ int main()
         }
     }
 
+    cout << "\n----------------------\n\n";
+
     cin.ignore(100, '\n');
     string word;
+    cout << "Enter a word or phrase: ";
     getline(cin, word);
     unsigned int i = 0;
     while (i < word.size()) {
-        cout << "HERE";
         cout << word[i] << endl;
         i++;
     }
 
+    cout << "\n----------------------\n\n";
+
     int input = 0;
+    int total = 0;
+    counter = 0;
+    double average;
     cout << "Enter some numbers, -1 to stop: ";
     while (input != -1) {
         cin >> input;
+        if (input != -1) {
+            total += input;
+            counter++;
+            average = (static_cast<double>(total) / counter);
+            cout << "\nRunning Average: " << average << endl;
+        }
     }
-
+    cout << "Final Average: " << average << endl;
     return 0;
 }
