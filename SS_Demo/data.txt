@@ -1,0 +1,6 @@
+10 20
+30	40
+BAD LINE
+50 sixty
+70 80
+ninety 100
