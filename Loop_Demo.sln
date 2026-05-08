@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Palindrome_3Ways", "Palindr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SS_Demo", "SS_Demo\SS_Demo.vcxproj", "{5C26F5AD-7764-4DBC-8637-613B416467F3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ss_output_demo", "ss_output_demo\ss_output_demo.vcxproj", "{0C47E89B-4F1C-45C0-86F8-03471E148EB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{5C26F5AD-7764-4DBC-8637-613B416467F3}.Release|x64.Build.0 = Release|x64
 		{5C26F5AD-7764-4DBC-8637-613B416467F3}.Release|x86.ActiveCfg = Release|Win32
 		{5C26F5AD-7764-4DBC-8637-613B416467F3}.Release|x86.Build.0 = Release|Win32
+		{0C47E89B-4F1C-45C0-86F8-03471E148EB5}.Debug|x64.ActiveCfg = Debug|x64
+		{0C47E89B-4F1C-45C0-86F8-03471E148EB5}.Debug|x64.Build.0 = Debug|x64
+		{0C47E89B-4F1C-45C0-86F8-03471E148EB5}.Debug|x86.ActiveCfg = Debug|Win32
+		{0C47E89B-4F1C-45C0-86F8-03471E148EB5}.Debug|x86.Build.0 = Debug|Win32
+		{0C47E89B-4F1C-45C0-86F8-03471E148EB5}.Release|x64.ActiveCfg = Release|x64
+		{0C47E89B-4F1C-45C0-86F8-03471E148EB5}.Release|x64.Build.0 = Release|x64
+		{0C47E89B-4F1C-45C0-86F8-03471E148EB5}.Release|x86.ActiveCfg = Release|Win32
+		{0C47E89B-4F1C-45C0-86F8-03471E148EB5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
